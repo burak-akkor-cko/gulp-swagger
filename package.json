@@ -1,6 +1,6 @@
 {
 	"name": "gulp-swagger-cko",
-	"version": "1.0.2-cko.1",
+	"version": "1.0.2-cko.2",
 	"description": "CKO update for gulp swagger",
 	"main": "./index.js",
 	"dependencies": {
