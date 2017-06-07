@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var swagger = require('gulp-swagger');
+var swagger = require('gulp-swagger-cko');
 var schema = '' +
 	// // Pick one for the demo:
 	// './src/schemas/json/petstore-expanded.json';

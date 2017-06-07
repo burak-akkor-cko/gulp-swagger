@@ -1,5 +1,5 @@
 {
-	"name": "gulp-swagger",
+	"name": "gulp-swagger-cko",
 	"version": "1.0.0",
 	"description": "Gulp plugin that parses Swagger specs in JSON or YAML format, validates against the official Swagger 2.0 schema, dereferences all $ref pointers, including pointers to external files and generates client-side API code.",
 	"keywords": [
@@ -22,7 +22,7 @@
 	},
 	"dependencies": {
 		"gulp-util": "^3.0.7",
-		"swagger-js-codegen": "git+https://git@github.com/burak-akkor-cko/swagger-js-codegen.git",
+		"swagger-js-codegen-cko": "^1.6.9",
 		"swagger-parser": "^3.4.1",
 		"swagger-tools": "^0.10.1",
 		"through2": "^2.0.1"
