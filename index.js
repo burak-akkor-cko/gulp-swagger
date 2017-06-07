@@ -4,7 +4,7 @@ var through = require('through2');
 var gutil = require('gulp-util');
 var swaggerParser = require('swagger-parser');
 var swaggerTools = require('swagger-tools').specs.v2; // Validate using the latest Swagger 2.x specification
-var CodeGen = require('swagger-js-codegen').CodeGen;
+var CodeGen = require('swagger-js-codegen-cko').CodeGen;
 var PLUGIN_NAME = 'gulp-swagger-cko';
 
 module.exports = function gulpSwagger (filename, options) {
